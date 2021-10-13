@@ -1,0 +1,34 @@
+.container {
+    @apply mx-4 xs:mx-12 md:mx-24 lg:mx-32 xl:mx-40 rounded-lg bg-white px-6 py-6 sm:px-12 sm:py-8 mb-6;
+}
+.title {
+    @apply font-semibold text-xl mb-8;
+}
+.services {
+    grid-template-columns: repeat(auto-fit, minmax(208px, 1fr));
+    @apply grid gap-4;
+}
+.name, .icon {
+    color: inherit;
+}
+.service {
+    @apply rounded border border-gray-lightest px-5 py-4 flex items-center capitalize relative overflow-hidden transition ease-in-out duration-500 hover:bg-blue hover:text-white h-28;
+}
+.selected {
+    @apply bg-blue text-white;
+}
+.name {
+    @apply w-2/3;
+}
+.icon {
+    @apply absolute -right-4 -bottom-4;
+}
+.icon svg {
+    @apply w-16 h-16 transition duration-500 ease-in-out;
+}
+.icon svg path {
+    @apply transition duration-500 ease-in-out;
+}
+.service:hover .icon svg path, .service.selected .icon svg path {
+    fill: #ffffff;
+}

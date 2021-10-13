@@ -1,0 +1,23 @@
+.container {
+    @apply mx-4 xs:mx-12 md:mx-24 lg:mx-32 xl:mx-40 rounded-lg bg-white px-6 py-4 xl:px-12 xl:py-8 mb-6;
+}
+.title {
+    @apply font-semibold text-xl mb-8 xs:mb-10 xl:mb-14;
+}
+.services {
+    @apply grid grid-cols-1 xl:grid-cols-2 ;
+}
+.service {
+    @apply flex -ml-3 xs:-ml-0 mb-6 xs:mb-8 xl:mb-12;
+}
+.name {
+    line-height: normal;
+    @apply font-semibold capitalize text-base xs:text-xl mb-2;
+}
+.texts {
+    @apply ml-2 xs:ml-4;
+}
+.desc {
+    line-height: normal;
+    @apply text-white-dark text-xs xs:text-sm;
+}

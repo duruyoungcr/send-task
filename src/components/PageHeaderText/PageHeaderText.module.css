@@ -1,0 +1,12 @@
+.container {
+    @apply flex px-4 py-6 xs:px-12 lg:px-24 xs:mb-4 lg:mb-6 mt-20;
+}
+.texts {
+    @apply flex flex-col;
+}
+.title {
+    @apply text-2xl capitalize mb-2 font-semibold;
+}
+.subtitle {
+    @apply text-white-dark text-sm xs:text-base;
+}

@@ -1,0 +1,37 @@
+.container {
+    @apply mx-4 xs:mx-12 md:mx-24 lg:mx-32 xl:mx-40 rounded-lg bg-white p-6 xs:p-12 mb-6;
+}
+.title {
+    @apply font-semibold text-xl;
+}
+.types {
+    @apply mb-4 xl:mr-14 xl:mb-0;
+}
+.types button {
+    @apply capitalize text-white-dark;
+}
+.types button.Mui-selected {
+    @apply bg-blue text-white !important;
+}
+
+.input__group {
+    background: hsla(0,0%,77.3%,.2)!important;
+    @apply transition duration-300 ease-in-out;
+}
+
+.select__input__group {
+    background: hsla(0,0%,77.3%,.2)!important;
+    @apply transition duration-300 ease-in-out;
+}
+
+:global(.css-1u3bzj6-MuiFormControl-root-MuiTextField-root)  {
+    background: hsla(0,0%,77.3%,.2)!important;
+}
+:global(.css-1u3bzj6-MuiFormControl-root-MuiTextField-root):focus-visible  {
+    @apply bg-white !important;
+}
+
+.grid__container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    @apply grid gap-10;
+}

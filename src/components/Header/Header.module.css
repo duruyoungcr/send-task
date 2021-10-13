@@ -1,0 +1,29 @@
+.header {
+    @apply bg-blue py-6 px-6 xs:px-8 flex items-center justify-between fixed top-0 left-0 right-0 z-10;
+}
+.actions {
+    @apply text-white hidden md:block;
+}
+.actions button {
+    @apply capitalize font-semibold px-8 text-white;
+}
+.actions button:first-of-type {
+    @apply mr-8;
+}
+.nav__toggle {
+    @apply md:hidden cursor-pointer text-white transform -rotate-90;
+}
+.nav__toggle svg {
+    fill: white;
+}
+.mobile__menu {
+    @apply fixed grid grid-cols-2 gap-x-2 top-20 left-0 right-0 w-full bg-gray-dark text-blue p-6 border-white ;
+}
+.mobile__menu button {
+    @apply text-xs text-white;
+}
+@media screen and (max-width: 345px) {
+    .mobile__menu {
+        @apply grid-cols-1;
+    }
+}
