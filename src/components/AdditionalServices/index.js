@@ -1,8 +1,5 @@
 import styles from './AdditionalServices.module.css'
-import { useState } from "react";
 import Switch from '../elements/Switch'
-
-
 
 const services = [
     {
@@ -30,10 +27,6 @@ const services = [
 
 
 const AdditionalServices = () => {
-    const [selectedId, setSelectedId] = useState('')
-    const handleServiceSelection = (id) => {
-        setSelectedId(id)
-    }
     return (
         <section className={styles.container}>
             <h5 className={styles.title}>Additional Services</h5>
@@ -41,9 +34,7 @@ const AdditionalServices = () => {
                 {services?.map((service) => (
                     <div
                         className={styles.service}
-                        role='button'
                         key={service.id}
-                        onClick={() => handleServiceSelection(service.id)}
                     >
                         <div className='min-w-max' >
                             <Switch />
