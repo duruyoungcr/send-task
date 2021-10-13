@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/send-task/static/css/main.b721c7f9.chunk.css",
+    "main.js": "/send-task/static/js/main.738c40ff.chunk.js",
+    "main.js.map": "/send-task/static/js/main.738c40ff.chunk.js.map",
+    "runtime-main.js": "/send-task/static/js/runtime-main.ad6aace3.js",
+    "runtime-main.js.map": "/send-task/static/js/runtime-main.ad6aace3.js.map",
+    "static/js/2.4ae719e2.chunk.js": "/send-task/static/js/2.4ae719e2.chunk.js",
+    "static/js/2.4ae719e2.chunk.js.map": "/send-task/static/js/2.4ae719e2.chunk.js.map",
+    "static/js/3.afcfca6e.chunk.js": "/send-task/static/js/3.afcfca6e.chunk.js",
+    "static/js/3.afcfca6e.chunk.js.map": "/send-task/static/js/3.afcfca6e.chunk.js.map",
+    "index.html": "/send-task/index.html",
+    "static/css/main.b721c7f9.chunk.css.map": "/send-task/static/css/main.b721c7f9.chunk.css.map",
+    "static/js/2.4ae719e2.chunk.js.LICENSE.txt": "/send-task/static/js/2.4ae719e2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/send-task/static/media/Gilroy-SemiBold.07b9100a.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad6aace3.js",
+    "static/js/2.4ae719e2.chunk.js",
+    "static/css/main.b721c7f9.chunk.css",
+    "static/js/main.738c40ff.chunk.js"
+  ]
+}
