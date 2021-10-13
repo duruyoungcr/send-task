@@ -1,5 +1,5 @@
 {
-  "homepage": "https://duruyoungcr.github.io/send-freight",
+  "homepage": "https://duruyoungcr.github.io/send-task",
   "name": "send-task",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,6 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "babel-loader": "^8.1.0",
     "date-fns": "^2.25.0",
     "gh-pages": "^3.2.0",
     "react": "^17.0.2",
