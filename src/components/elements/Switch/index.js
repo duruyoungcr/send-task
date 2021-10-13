@@ -41,8 +41,8 @@ const BasicSwitchThumb = styled('span')(`
   display: block;
   width: 27px;
   height: 27px;
-  top: 1px;
-  left: 3px;
+  top: 1.5px;
+  left: 1.5px;
   border-radius: 50%;
   background-color: #FFF;
   position: relative;
@@ -54,8 +54,8 @@ const BasicSwitchThumb = styled('span')(`
   }
 
   &.Switch-checked {
-    left: 23px;
-    top: 1px;
+    left: 24px;
+    top: 1.5px;
     background-color: #FFF;
   }
 `);
